@@ -30,5 +30,5 @@ percentage_difference = ((y_pred - actual_dom_lf) / actual_dom_lf) * 100
 
 # Print percentage difference for each month
 for month, diff in zip(new_data['Month'], percentage_difference):
-    print(f"Month {month}: {diff}% difference")
+    print(f"UWWMonth {month}: {diff}% difference")
 print(regression_model.coef_)  # Print model coefficients
